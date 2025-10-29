@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', sans-serif;
+      background-color: #f5f6fa;
+      margin: 0;
+      padding: 70px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+h1{
+    color: #2f3640;
+    padding-bottom: 30px;
+}
+.search-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+button{
+    padding: 10px 20px;
+    background-color: #7c6dc9;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    transition: all 500ms ease;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #6a53d3;
+}
+input {
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 300px;
+}
+.order-card{
+    display: block;
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 20px 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin-left: -35px;
+}
+.section{
+    margin-top: 20px;
+}
+.section h2 {
+      font-size: 18px;
+      border-bottom: 2px solid #7c6dc9;
+      padding-bottom: 5px;
+      color: #353b48;
+}
+.field {
+      margin: 5px 0;
+}
+
+.label {
+      font-weight: bold;
+      color: #353b48;
+}
+
+.value {
+      margin-left: 8px;
+      color: #2f3640;
+}
+
+.item-card {
+      background: #f9f9f9;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+      padding: 10px 15px;
+      margin: 8px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.price-block {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      line-height: 1.2;
+}
+
+.price-block .value {
+      font-weight: 600;
+      color: #222;
+}
+
+.price-block .old-price {
+      font-size: 0.9rem;
+      color: #999;
+      text-decoration: line-through;
+      margin-top: 2px;
+}
